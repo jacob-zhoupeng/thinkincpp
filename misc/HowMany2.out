@@ -1,0 +1,31 @@
+ 1) HowMany2()
+ 2) 	h: object_count = 1
+ 3) entering f()
+ 4) HowMany2(HowMany2 &)
+ 5) 	h copy: object_count = 2
+ 6) x argument inside f()
+ 7) 	h copy: object_count = 2
+ 8) returning from f()
+ 9) HowMany2(HowMany2 &)
+10) 	h copy copy: object_count = 3
+11) ~HowMany2()
+12) 	h copy: object_count = 2
+13) h2 after call to f()
+14) 	h copy copy: object_count = 2
+15) call f(), no return value
+16) HowMany2(HowMany2 &)
+17) 	h copy: object_count = 3
+18) x argument inside f()
+19) 	h copy: object_count = 3
+20) returning from f()
+21) HowMany2(HowMany2 &)
+22) 	h copy copy: object_count = 4
+23) ~HowMany2()
+24) 	h copy copy: object_count = 3
+25) ~HowMany2()
+26) 	h copy: object_count = 2
+27) after call to f()
+28) ~HowMany2()
+29) 	h copy copy: object_count = 1
+30) ~HowMany2()
+31) 	h: object_count = 0

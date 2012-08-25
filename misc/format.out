@@ -1,0 +1,68 @@
+int i = 47;
+float f = 2300114.414159;
+T.setf(ios::unitbuf);
+T.setf(ios::showbase);
+T.setf(ios::uppercase);
+T.setf(ios::showpos);
+T << i << endl;
++47
+T.setf(ios::hex, ios::basefield);
+T << i << endl;
+0X2F
+T.unsetf(ios::uppercase);
+T.setf(ios::oct, ios::basefield);
+T << i << endl;
+057
+T.unsetf(ios::showbase);
+T.setf(ios::dec, ios::basefield);
+T.setf(ios::left, ios::adjustfield);
+T.fill('0');
+T << "fill char: " << T.fill() << endl;
+fill char: 0
+T.width(10);
++470000000
+T.setf(ios::right, ios::adjustfield);
+T.width(10);
+0000000+47
+T.setf(ios::internal, ios::adjustfield);
+T.width(10);
++000000047
+T << i << endl;
++47
+T.unsetf(ios::showpos);
+T.setf(ios::showpoint);
+T << "prec = " << T.precision() << endl;
+prec = 6
+T.setf(ios::scientific, ios::floatfield);
+T << endl << f << endl;
+
+2.300114e+006
+T.setf(ios::fixed, ios::floatfield);
+T << f << endl;
+2300114.500000
+T << f << endl;
+2300114.500000
+T.precision(20);
+T << "prec = " << T.precision() << endl;
+prec = 20
+T << endl << f << endl;
+
+2300114.50000000000000000000
+T.setf(ios::scientific, ios::floatfield);
+T << endl << f << endl;
+
+2.30011450000000000000e+006
+T.setf(ios::fixed, ios::floatfield);
+T << f << endl;
+2300114.50000000000000000000
+T << f << endl;
+2300114.50000000000000000000
+T.width(10);
+Is there any more?
+T.width(40);
+0000000000000000000000Is there any more?
+T.setf(ios::left, ios::adjustfield);
+T.width(40);
+Is there any more?0000000000000000000000
+T.unsetf(ios::showpoint);
+T.unsetf(ios::unitbuf);

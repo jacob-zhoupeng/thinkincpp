@@ -1,0 +1,64 @@
+//: C19:Effector.txt
+// (Should be "cpp" but I can't get it to compile with my windows compilers, 
+// so making it a text file will keep it out of the makefile for the time being)
+// Jerry Schwarz's "effectors"
+
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <climits> // ULONG_MAX
+
+using namespace std;
+
+// Put out a portion of a string:
+class Fixw {
+public:
+    Fixw(const string& s, int width) : str(s, 0, width) {}
+
+    friend ostream& operator<<(ostream& os, Fixw& fw) {
+        return os << fw.str;
+    }
+private:
+    string str;
+};
+
+typedef unsigned long ulong;
+
+// Print a number in binary:
+class Bin {
+public:
+    Bin(ulong N) { 
+        n = N; 
+    }
+    friend ostream& operator<<(ostream&, Bin&);
+prvate:
+    ulong n;
+};
+
+ostream& operator<<(iostream& os, Bin& b) {
+    ulong bit = ~(ULONG_MAX >> 1); // Top bit set
+
+    while (bit) {
+        os << (b.n & bit ? '1' : '0');
+        bin >>= 1;
+    }
+    
+    return os;
+}
+
+int main() {
+    char* string = "Things that make us happy, make us wise";
+
+    for (int i = 0; i <= strlen(string); i++) {
+        cout << Fixw(string, i) << endl;
+    }
+    
+    ulong x = 0xCAFEBABEUL;
+    ulong y = 0x76543210UL;
+
+    cout << "x in binary: " << Bin(x) << endl;
+    cout << "y in binary: " << Bin(y) << endl;
+
+    return 0;
+} ///:~
+

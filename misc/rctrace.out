@@ -1,0 +1,26 @@
+object A:blocknum: 0, refcount: 2
+object B:blocknum: 1, refcount: 1
+object A copy (C) :blocknum: 0, refcount: 2
+inside operator=
+	 object B:blocknum: 1, refcount: 1
+	destroying block 1
+after assignment
+	 object A:blocknum: 0, refcount: 3
+object B:blocknum: 0, refcount: 3
+Assigning C = C
+inside operator=
+	 object A copy (C) :blocknum: 0, refcount: 3
+self-assignment
+calling C write('x')
+	 object A copy (C) :blocknum: 0, refcount: 3
+copied block, blocknum: 2, refcount: 1
+from block, blocknum: 0, refcount: 2
+exiting main()
+preparing to destroy: A copy (C) 
+	decrementing refcount blocknum: 2, refcount: 1
+	destroying block 2
+preparing to destroy: B
+	decrementing refcount blocknum: 0, refcount: 2
+preparing to destroy: A
+	decrementing refcount blocknum: 0, refcount: 1
+	destroying block 0

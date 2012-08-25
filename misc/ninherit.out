@@ -1,0 +1,6 @@
+Root()
+Root(Root &)
+Root::operator=()
+Root::operator Other()
+~Root()
+~Root()

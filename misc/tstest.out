@@ -1,0 +1,179 @@
+>0
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>8
+>9
+>10
+>11
+>12
+>13
+>14
+>15
+>16
+>17
+>18
+>19
+>20
+>21
+>22
+>23
+>24
+>25
+>26
+>27
+>28
+>29
+0
+1
+2
+3
+4
+25
+26
+27
+28
+29
+//: C16:Tstest.cpp
+// Test TStash
+
+#include <fstream>
+#include <vector>
+#include <string>
+#include "require.h"
+#include "TStash.h"
+
+using namespace std;
+
+ofstream out("tstest.out");
+
+class Int {
+public:
+    Int(int I = 0) : i(I) {
+        out << ">" << i << endl;
+    }
+    ~Int() {
+        out << "~" << i << endl;
+    }
+    operator int() const  {
+        return i;
+    }
+    friend ostream &operator<<(ostream &os, const Int &x) {
+        return os << x.i;
+    }
+private:
+    int i;
+};
+
+int main() {
+    TStash<Int> intStash; // Instantiate for int
+
+    for (int i = 0; i < 30; i++) {
+        intStash.add(new Int(i));
+    }
+
+    TStashIter<Int> Intit(intStash);
+    Intit.forward(5);
+    for (int j = 0; j < 20; j++, Intit++) {
+        Intit.remove(); // Default removal
+    }
+    for (int k = 0; k < intStash.count(); k++) {
+        if (intStash[k]) {
+            // Remove() causes "holes"
+            out << *intStash[k] << endl;
+        }
+    }
+
+    ifstream file(__FILE__);
+    assure(file, __FILE__);
+    // Instantiate for String:
+    TStash<string> stringStash;
+    string line;
+
+    while (getline(file, line)) {
+        stringStash.add(new string(line));
+    }
+
+    for (int u = 0; u < stringStash.count(); u++) {
+        if (stringStash[u]) {
+            out << *stringStash[u] << endl;
+        }
+    }
+
+    TStashIter<string> it(stringStash);
+    int j = 25;
+    it.forward(j);
+
+    while (it) {
+        out << j++ << ": " << it->c_str() << endl;
+        it++;
+    }
+
+    return 0;
+} ///:~
+25:         return os << x.i;
+26:     }
+27: private:
+28:     int i;
+29: };
+30: 
+31: int main() {
+32:     TStash<Int> intStash; // Instantiate for int
+33: 
+34:     for (int i = 0; i < 30; i++) {
+35:         intStash.add(new Int(i));
+36:     }
+37: 
+38:     TStashIter<Int> Intit(intStash);
+39:     Intit.forward(5);
+40:     for (int j = 0; j < 20; j++, Intit++) {
+41:         Intit.remove(); // Default removal
+42:     }
+43:     for (int k = 0; k < intStash.count(); k++) {
+44:         if (intStash[k]) {
+45:             // Remove() causes "holes"
+46:             out << *intStash[k] << endl;
+47:         }
+48:     }
+49: 
+50:     ifstream file(__FILE__);
+51:     assure(file, __FILE__);
+52:     // Instantiate for String:
+53:     TStash<string> stringStash;
+54:     string line;
+55: 
+56:     while (getline(file, line)) {
+57:         stringStash.add(new string(line));
+58:     }
+59: 
+60:     for (int u = 0; u < stringStash.count(); u++) {
+61:         if (stringStash[u]) {
+62:             out << *stringStash[u] << endl;
+63:         }
+64:     }
+65: 
+66:     TStashIter<string> it(stringStash);
+67:     int j = 25;
+68:     it.forward(j);
+69: 
+70:     while (it) {
+71:         out << j++ << ": " << it->c_str() << endl;
+72:         it++;
+73:     }
+74: 
+75:     return 0;
+76: } ///:~
+~0
+~1
+~2
+~3
+~4
+~25
+~26
+~27
+~28
+~29

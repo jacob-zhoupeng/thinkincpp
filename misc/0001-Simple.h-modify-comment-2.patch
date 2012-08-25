@@ -1,0 +1,24 @@
+From 60c4a34ec9c1d34008aea173bae44199425048bd Mon Sep 17 00:00:00 2001
+From: Zhou Peng <jacob.zhoupeng@gmail.com>
+Date: Thu, 23 Aug 2012 23:33:44 +0800
+Subject: [PATCH] Simple.h: modify comment {2}
+
+---
+ Simple.h | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/Simple.h b/Simple.h
+index 3ec3ad9..1fdc44f 100644
+--- a/Simple.h
++++ b/Simple.h
+@@ -15,6 +15,4 @@ private:
+     int k;
+ };
+ 
+-#endif // SIMPLE_H_INCLUDED
+-///:~
+-
++#endif // SIMPLE_H_INCLUDED///:~
+-- 
+1.7.11.msysgit.1
+
