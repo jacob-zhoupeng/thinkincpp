@@ -11,5 +11,7 @@
 *.la
 *.a
 
-# Window executable files
+# Windows executable files
 *.exe
+debug/
+Debug/
