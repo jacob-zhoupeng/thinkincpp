@@ -1,5 +1,6 @@
 /*: C04:Declare.c
-Declaration/definition examples */
+ *  Declaration/definition examples 
+ */
 extern int i; /* Declaration without definition */
 extern float f(float); /* Function declaration */
 

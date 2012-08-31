@@ -1,6 +1,5 @@
 //: C18:ichar_traits.h
 // Creating your own character traits
-
 #ifndef ICHAR_TRAITS_H_INCLUDED
 #define ICHAR_TRAITS_H_INCLUDED
 

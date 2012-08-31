@@ -1,6 +1,5 @@
 //: C16:Nobloat.h
 // Templatized INHSTAK.CPP
-
 #ifndef NOBLOAT_H_INCLUDED
 #define NOBLOAT_H_INCLUDED
 

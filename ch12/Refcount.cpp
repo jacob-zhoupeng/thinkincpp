@@ -2,7 +2,8 @@
 // Reference count, copy-on-write(∏±±æ…œ–¥)
 
 #include <cstring>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

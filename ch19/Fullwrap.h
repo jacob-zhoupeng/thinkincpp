@@ -1,6 +1,5 @@
 //: C19:Fullwrap.h
 // Completely hidden file IO
-
 #ifndef FULLWRAP_H_INCLUDED
 #define FULLWRAP_H_INCLUDED
 

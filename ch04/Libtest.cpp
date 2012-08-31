@@ -3,7 +3,8 @@
 // Test of C++ library
 
 #include <cstdio>
-#include "require.h"
+
+#include "../require.h"
 #include "Libcpp.h"
 
 using namespace std;

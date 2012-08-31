@@ -1,8 +1,8 @@
 //: C16:Sorted.cpp
 // Testing template inheritance
-
 #include <iostream>
 #include <string>
+
 #include "Sorted.h"
 #include "Integer.h"
 

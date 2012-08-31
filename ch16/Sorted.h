@@ -1,6 +1,5 @@
 //: C16:Sorted.h
 // Template inheritance
-
 #ifndef SORTED_H_INCLUDED
 #define SORTED_H_INCLUDED
 
@@ -8,6 +7,7 @@
 #include <cstring>
 #include <ctime>
 #include <vector>
+
 #include "TStash.h"
 
 template<class T>

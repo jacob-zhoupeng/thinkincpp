@@ -1,6 +1,5 @@
 //: C16:Integer.h
 // An int wrapped in a class
-
 #ifndef INTEGER_H_INCLUDED
 #define INTEGER_H_INCLUDED
 

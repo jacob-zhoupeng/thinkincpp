@@ -3,7 +3,8 @@
 // Constructors & destructors
 
 #include <cstdio>
-#include "require.h"
+
+#include "../require.h"
 #include "Stash3.h"
 
 using namespace std;

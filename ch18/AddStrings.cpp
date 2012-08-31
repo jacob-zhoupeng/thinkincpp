@@ -1,5 +1,4 @@
 //: C18:AddStrings.cpp
-
 #include <string>
 #include <iostream>
 

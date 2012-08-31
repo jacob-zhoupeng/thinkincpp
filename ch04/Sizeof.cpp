@@ -2,6 +2,7 @@
 // Sizes of structs
 
 #include <cstdio>
+
 #include "Lib.h"
 #include "Libcpp.h"
 

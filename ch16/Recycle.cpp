@@ -1,9 +1,9 @@
 //: C16:Recycle.cpp
 // Containers & polymorphism
-
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
+
 #include "TStack.h"
 
 using namespace std;

@@ -1,5 +1,4 @@
 //: C20:TokenIterator.h
-
 #ifndef TOKENITERATOR_H_
 #define TOKENITERATOR_H_
 

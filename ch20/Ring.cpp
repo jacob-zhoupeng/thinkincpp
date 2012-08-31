@@ -2,6 +2,7 @@
 // Making a "Ring" data structure from the STL
 
 #include <iostream>
+#include <iterator>
 #include <list>
 #include <string>
 
@@ -14,9 +15,7 @@ public:
     // 'friend' statement sees this 'iterator'
     // instead of std::iterator:
     class iterator;
-    
     friend class iterator;
-
     
     class iterator: public std::iterator<std::bidirectional_iterator_tag, T, ptrdiff_t> {
     public:

@@ -1,8 +1,8 @@
 //: C16:Special.cpp
 // Template specialization
 // A special sort for char*
-
 #include <iostream>
+
 #include "Sorted.h"
 
 using namespace std;

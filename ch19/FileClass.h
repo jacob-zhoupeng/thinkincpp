@@ -1,6 +1,5 @@
 //: C19:FileClass.h
 // Stdio files wrapped
-
 #ifndef FILECLASS_H_INCLUDED
 #define FILECLASS_H_INCLUDED
 

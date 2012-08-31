@@ -5,7 +5,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "require.h"
+
+#include "../require.h"
 #include "Stack11.h"
 
 using namespace std;

@@ -1,7 +1,7 @@
 //: C16:Generate.cpp
 // Explicit instantiation
-
 #include <iostream>
+
 #include "Sorted.h"
 #include "Integer.h"
 

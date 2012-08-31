@@ -2,7 +2,7 @@
 // {L} FileClass
 // Testing class File
 
-#include "require.h"
+#include "../require.h"
 #include "FileClass.h"
 
 using namespace std;

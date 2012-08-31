@@ -1,6 +1,5 @@
 //: C16:Stemp2.cpp
 // Non-inline template example
-
 #include "require.h"
 
 template<class T>

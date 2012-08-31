@@ -1,5 +1,4 @@
 //: C18:ReplaceAndGrow.cpp
-
 #include <string>
 #include <iostream>
 

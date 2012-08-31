@@ -2,7 +2,8 @@
 // Side effectc with macros
 
 #include <fstream>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

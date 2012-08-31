@@ -1,5 +1,4 @@
 //: C18:BadStringIndexing.cpp
-
 #include<string>
 #include<iostream>
 

@@ -1,6 +1,5 @@
 //: C13:PStash.h
 // Holds pointers instead of objects
-
 #ifndef PSTASH_H_INCLUDED
 #define PSTASH_H_INCLUDED
 

@@ -3,6 +3,7 @@
 // Test the FileEditor tool
 
 #include <sstream>
+
 #include "FileEditor.h"
 
 using namespace std;

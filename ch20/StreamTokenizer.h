@@ -1,6 +1,5 @@
 //: C20:StreamTokenizer.h
 // C++ Replacement for Standard C strtok()
-
 #ifndef STREAMTOKENIZR_H_
 #define STREAMTOKENIZR_H_
 

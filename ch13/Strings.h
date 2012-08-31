@@ -1,7 +1,6 @@
 //: C13:Strings.h
 // Simple string class
 // Can only be built on the heap
-
 #ifndef STRINGS_H_INCLUDED
 #define STRINGS_H_INCLUDED
 

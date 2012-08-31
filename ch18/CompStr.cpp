@@ -1,5 +1,4 @@
 //: C18:CompStr.cpp
-
 #include <string>
 #include <iostream>
 

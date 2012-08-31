@@ -1,6 +1,5 @@
 //: C14:Useful.h
 // A class to reuse
-
 #ifndef USEFUL_H_INCLUDED
 #define USEFUL_H_INCLUDED
 

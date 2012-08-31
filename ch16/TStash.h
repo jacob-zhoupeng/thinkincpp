@@ -1,11 +1,11 @@
 //: C16:TStash.h
 // PSTASH using templates
-
 #ifndef TSTASH_H_
 #define TSTASH_H_
 
 #include <cstdlib>
-#include "require.h"
+
+#include "../require.h"
 
 // More convenient than nesting in TStash:
 enum owns {

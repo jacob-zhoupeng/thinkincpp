@@ -4,7 +4,8 @@
 
 #include <iostream>
 #include <fstream>
-#include "require.h"
+
+#include "../require.h"
 #include "PStash.h"
 #include "Strings.h"
 

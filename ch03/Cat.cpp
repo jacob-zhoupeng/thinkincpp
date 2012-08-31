@@ -2,6 +2,7 @@
 // Demonstrates member function calls
 // and simple file i/o.
 #include <iostream>
+
 using namespace std;
 
 int main() {

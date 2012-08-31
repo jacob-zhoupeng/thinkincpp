@@ -4,7 +4,8 @@
 #include <iostream>
 #include <fstream>
 #include <strstream>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

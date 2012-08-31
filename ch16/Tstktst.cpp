@@ -1,10 +1,10 @@
 //: C16:Tstktst.cpp
 // Use template list & iterator
-
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "require.h"
+
+#include "../require.h"
 #include "TStack.h"
 
 using namespace std;

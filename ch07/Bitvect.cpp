@@ -5,7 +5,8 @@
 #include <cstdlib>
 #include <cstring>
 #include <climits> // CHAR_BIT = # bits in char
-#include "require.h"
+
+#include "../require.h"
 #include "Bitvect.h"
 
 using namespace std;

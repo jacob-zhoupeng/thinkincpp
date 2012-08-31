@@ -1,8 +1,9 @@
 //: C09:Errtest.cpp
 // Testing require.h
 
-#include "require.h"
 #include <fstream>
+
+#include "../require.h"
 
 using namespace std;
 

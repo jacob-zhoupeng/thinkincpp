@@ -1,6 +1,5 @@
 //: C16:Sstring.h
 // Stack-based string
-
 #ifndef SSTRING_H_INCLUDED
 #define SSTRING_H_INCLUDED
 

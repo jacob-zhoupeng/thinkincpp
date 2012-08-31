@@ -1,6 +1,5 @@
 //: C16:TStack.h
 // Stack using templates
-
 #ifndef TSTACK_H_INCLUDED
 #define TSTACK_H_INCLUDED
 

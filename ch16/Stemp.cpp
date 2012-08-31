@@ -1,8 +1,8 @@
 //: C16:Stemp.cpp
 // Simple template example
-
 #include <iostream>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

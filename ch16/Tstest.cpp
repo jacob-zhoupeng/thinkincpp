@@ -1,10 +1,10 @@
 //: C16:Tstest.cpp
 // Test TStash
-
 #include <fstream>
 #include <vector>
 #include <string>
-#include "require.h"
+
+#include "../require.h"
 #include "TStash.h"
 
 using namespace std;

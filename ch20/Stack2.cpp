@@ -7,7 +7,7 @@
 #include <stack>
 #include <string>
 
-#include "require.h"
+#include "../require.h"
 
 using namespace std;
 

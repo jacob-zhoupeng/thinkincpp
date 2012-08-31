@@ -8,7 +8,7 @@
 #include <cstring>
 #include <cctype>
 
-#include "require.h"
+#include "../require.h"
 
 using namespace std;
 

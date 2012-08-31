@@ -3,7 +3,8 @@
 // Copies itself to TMP.TXT
 
 #include <fstream>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

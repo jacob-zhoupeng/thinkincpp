@@ -1,6 +1,5 @@
 //: C13:Stack11.h
 // New version of Stack
-
 #ifndef STACK11_H_INCLUDED
 #define STACK11_H_INCLUDED
 

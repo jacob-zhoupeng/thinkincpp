@@ -2,7 +2,8 @@
 // Static vars inside functions
 
 #include <iostream>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

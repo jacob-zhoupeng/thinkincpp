@@ -1,5 +1,4 @@
 //: C18:Replace.cpp
-
 #include <string>
 #include <iostream>
 

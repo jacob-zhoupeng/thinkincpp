@@ -1,6 +1,5 @@
 //: C10:Depend.h
 // Static initialization technique
-
 #ifndef DEPEND_H_INCLUDED
 #define DEPEND_H_INCLUDED
 

@@ -1,6 +1,5 @@
 //: C18:CmpIter.cpp
 // Find a group of characters in a string
-
 #include <string>
 #include <iostream>
 

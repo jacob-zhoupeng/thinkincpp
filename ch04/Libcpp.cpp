@@ -6,7 +6,7 @@
 #include <cstring> // memcpy()
 #include <cstdio>
 
-#include "require.h" // Error testing CODEPAGE_ENUMPROC
+#include "../require.h" // Error testing CODEPAGE_ENUMPROC
 #include "Libcpp.h"
 
 using namespace std;

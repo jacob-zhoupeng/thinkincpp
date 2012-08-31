@@ -1,6 +1,7 @@
 //: C03:Getline.cpp
 // Stream input by lines
 #include <iostream>
+
 using namespace std;
 
 int main() {

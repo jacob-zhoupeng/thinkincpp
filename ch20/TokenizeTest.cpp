@@ -6,7 +6,7 @@
 #include <fstream>
 #include <set>
 
-#include "require.h"
+#include "../require.h"
 #include "StreamTokenizer.h"
 
 using namespace std;

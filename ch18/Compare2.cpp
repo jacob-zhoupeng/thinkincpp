@@ -1,6 +1,5 @@
 //: C18:Compare2.cpp
 // Overloaded compare()
-
 #include <string>
 #include <iostream>
 

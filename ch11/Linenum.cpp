@@ -4,7 +4,8 @@
 #include <fstream>
 #include <strstream> //! Deprecated! replaced by <sstream>
 #include <cstdlib>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

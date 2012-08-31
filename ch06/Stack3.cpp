@@ -2,7 +2,8 @@
 // Constructors/destructors
 
 #include <cstdlib>
-#include "require.h"
+
+#include "../require.h"
 #include "Stack3.h"
 
 using namespace std;

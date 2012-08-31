@@ -3,7 +3,8 @@
 
 #include <cstdio>
 #include <cstring>
-#include "require.h"
+
+#include "../require.h"
 
 using namespace std;
 

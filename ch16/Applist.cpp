@@ -1,7 +1,7 @@
 //: C16:Applist.cpp
 // Apply a function to a TStack
-
 #include <iostream>
+
 #include "TStack.h"
 
 using namespace std;

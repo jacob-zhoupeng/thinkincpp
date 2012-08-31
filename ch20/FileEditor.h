@@ -1,6 +1,5 @@
 //: C20:FileEditor.h
 // File editor tool
-
 #ifndef FILEEDITOR_H_
 #define FILEEDITOR_H_
 

@@ -10,7 +10,7 @@
 #include <sstream>
 #include <ctime>
 
-#include "require.h"
+#include "../require.h"
 
 using namespace std;
 

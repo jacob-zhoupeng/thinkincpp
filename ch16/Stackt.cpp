@@ -1,8 +1,8 @@
 //: C16:Stackt.cpp
 // Test simple stack template
-
 #include <iostream>
-#include "require.h"
+
+#include "../require.h"
 #include "Stackt.h"
 
 using namespace std;

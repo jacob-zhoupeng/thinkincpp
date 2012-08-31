@@ -1,6 +1,5 @@
 //: C18:Compare.cpp
 // Demonstrates compare(), swap()
-
 #include <string>
 #include <iostream>
 

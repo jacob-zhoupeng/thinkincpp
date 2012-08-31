@@ -1,7 +1,6 @@
 //: C20:SimpleGenerators.h
 // Generic generators, including one that
 // creates pairs
-
 #include <iostream>
 #include <utility>
 

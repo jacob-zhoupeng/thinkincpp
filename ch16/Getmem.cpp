@@ -1,7 +1,7 @@
 //: C16:Getmem.cpp
 // Test memory function template
-
 #include <iostream>
+
 #include "Getmem.h"
 
 using namespace std;

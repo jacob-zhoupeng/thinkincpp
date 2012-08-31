@@ -2,6 +2,7 @@
 // Simple inheritance
 
 #include <iostream>
+
 #include "Useful.h"
 
 using namespace std;

@@ -1,7 +1,6 @@
 //: C20:assoGen.h
 // The fill_n() and generate_n() equivalents
 // for associative containers.
-
 #ifndef ASSOCGEN_H_
 #define ASSOCGEN_H_
 

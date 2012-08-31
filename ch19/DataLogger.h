@@ -1,6 +1,5 @@
 //: C19:DataLogger.h
 // Datalogger record layout
-
 #ifndef DATALOG_H_
 #define DATALOG_H_
 

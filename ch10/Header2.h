@@ -1,5 +1,4 @@
 //: C10:Header2.h
-
 #ifndef HEADER2_H_INCLUDED
 #define HEADER2_H_INCLUDED
 

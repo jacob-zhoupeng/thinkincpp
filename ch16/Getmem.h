@@ -1,12 +1,12 @@
 //: C16:Getmem.h
 // Function template for memory
-
 #ifndef GETMEM_H_INCLUDED
 #define GETMEM_H_INCLUDED
 
 #include <cstdlib>
 #include <cstring>
-#include "require.h"
+
+#include "../require.h"
 
 template<class T>
 void getmem(T *&oldmem, int elems) { //! 指针的引用

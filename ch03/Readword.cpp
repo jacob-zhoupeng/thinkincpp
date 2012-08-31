@@ -1,6 +1,7 @@
 //: C03:Readword.cpp
 // Read and echo a word from standard input
 #include <iostream>
+
 using namespace std;
 
 int main() {

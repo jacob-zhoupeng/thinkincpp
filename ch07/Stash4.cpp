@@ -4,7 +4,8 @@
 #include <cstdlib>
 #include <cstring>
 #include <cstdio>
-#include "require.h"
+
+#include "../require.h"
 #include "Stash4.h"
 
 using namespace std;

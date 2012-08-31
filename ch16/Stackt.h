@@ -1,6 +1,5 @@
 //: C16:Stackt.h
 // Simple stack template
-
 #ifndef STACKT_H_INCLUDED
 #define STACKT_H_INCLUDED
 

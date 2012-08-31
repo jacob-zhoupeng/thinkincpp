@@ -1,6 +1,5 @@
 //: C20:Noisy.h
 // A class to track various object activities
-
 #ifndef NOISY_H
 #define NOISY_H
 

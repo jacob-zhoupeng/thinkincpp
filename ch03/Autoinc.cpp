@@ -2,6 +2,7 @@
 // Shows use of auto-increment
 // and auto-decrement operators.
 #include <iostream>
+
 using namespace std;
 
 int main() {

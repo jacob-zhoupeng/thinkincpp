@@ -1,5 +1,4 @@
 //: C18:NewFind.cpp
-
 #include <string>
 #include <iostream>
 #include <cstdio>

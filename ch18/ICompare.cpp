@@ -1,5 +1,4 @@
 //: C18:ICompare.cpp
-
 #include <string>
 #include <iostream>
 #include "ichar_traits.h"
