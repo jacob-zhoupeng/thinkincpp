@@ -14,7 +14,7 @@ public:
     NString() : occurrence(0) {}
     
     //! 添加构造函数，使Manipulations.cpp编译通过 by <jacob.zhoupeng@gmail.com>
-    NString(char* str = "") : s(str), occurrence(occurMap[s]++) {}
+    NString(char* str) : s(str), occurrence(occurMap[s]++) {}
 
     NString(const std::string& x) : s(x), occurrence(occurMap[s]++) {}
 
