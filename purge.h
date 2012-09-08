@@ -1,6 +1,5 @@
 //::purge.h
 // Delete pointers in an STL sequence container
-
 #ifndef PURGE_H_
 #define PURGE_H_
 
