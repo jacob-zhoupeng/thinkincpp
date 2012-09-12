@@ -1,5 +1,5 @@
 {
 	"project_id" : "thinkincpp",
 	"conduit_uri" : "http://172.16.64.130/",
-	"lint_engine" : "ArcanistTextLinter"
+	"lint.engine" : "ArcanistTextLinter"
 }
