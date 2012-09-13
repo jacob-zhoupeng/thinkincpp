@@ -1,0 +1,4 @@
+sizeof(b)=4
+sizeof(nonv_inheritance)=4
+sizeof(v_inheritance)=4
+sizeof(mi)=8

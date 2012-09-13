@@ -1,0 +1,8 @@
+sizeof(mi) = 40 hex
+MI this = 0x28fed8
+Base1 this = 0x28fed8
+Base2 this = 0x28fee8
+Member1 this = 0x28fef8
+Member2 this = 0x28ff08
+Base 1 pointer = 0x28fed8
+Base 2 pointer = 0x28fee8
