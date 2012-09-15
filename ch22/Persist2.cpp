@@ -24,9 +24,12 @@ public:
     }
 
     void print(const char* msg = "") const {
-        if (*msg) cout << msg << endl;
-        for (int i = 0; i < 3; i++)
+        if (*msg) {
+            cout << msg << endl;
+        }
+        for (int i = 0; i < 3; i++) {
             cout << "f[" << i << "] = " << f[i] << endl;
+        }
     }
 protected:
     float f[3];
