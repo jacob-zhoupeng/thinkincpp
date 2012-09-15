@@ -11,7 +11,7 @@ template<class Cont, class PtrMemFun>
 void apply(Cont& c, PtrMemFun f) {
     typename Cont::iterator it = c.begin();
     while (it != c.end()) {
-        //(it->*f)(); // Compact form //! gcc 4.4.1 编译不通过
+        //(it->*f)(); // Compact form //! gcc-4.4 gcc-4.6 编译不通过
         ((*it).*f)(); // Alternate form
         it++;
     }
