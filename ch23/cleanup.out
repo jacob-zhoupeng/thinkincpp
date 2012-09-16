@@ -1,0 +1,18 @@
+constructing Noisy 0 name [before array]
+Noisy::new[]
+constructing Noisy 1 name [array elem]
+constructing Noisy 2 name [array elem]
+constructing Noisy 3 name [array elem]
+constructing Noisy 4 name [array elem]
+constructing Noisy 5 name [array elem]
+destructing Noisy 4 name [array elem]
+destructing Noisy 3 name [array elem]
+destructing Noisy 2 name [array elem]
+destructing Noisy 1 name [array elem]
+Nosy::delete[]
+destructing Noisy 0 name [before array]
+caught 5
+testing unexpected:
+constructing Noisy 6 name [before unexpected]
+constructing Noisy 7 name [z]
+inside unexpected_rethrow()
