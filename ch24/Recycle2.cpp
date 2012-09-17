@@ -113,8 +113,8 @@ int main(int argc, char* argv[]) {
             case 2:
                 bin.push_back(new Glass(rand() % 100));
                 break;
-            default:
-                break; // No possibility to get here
+            default: // No possibility to get here
+                break;
         }
     }
 
