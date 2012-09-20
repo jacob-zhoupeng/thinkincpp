@@ -15,3 +15,9 @@
 *.exe
 debug/
 Debug/
+
+# Java class files
+*.class
+
+# Program output files
+*.out
