@@ -1,7 +1,7 @@
 //: C25:SingletonPattern.java
 // The Singleton design pattern: you can
 // never instantiate more than one.
-package designpattern;
+package c16;
 
 // Since this isn't inherited from a Cloneable
 // base class and cloneability isn't added,
