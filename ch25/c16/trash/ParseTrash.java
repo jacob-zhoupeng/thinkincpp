@@ -13,15 +13,15 @@ public class ParseTrash {
             String buf;
             while ((buf = data.readLine()) != null) {
                 String type = buf.substring(0, buf.indexOf(':')).trim();
-                double weight = Dobuble.valueOf(buf.substring(buf.indexOf(':') 
+                double weight = Double.valueOf(buf.substring(buf.indexOf(':') 
                 + 1).trim()).doubleValue();
-                bin.addTrash(Trash.factory(new Trash.Info(type, weight));
+                bin.addTrash(Trash.factory(new Trash.Info(type, weight)));
             }
             data.close();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (Exception e) {
-            e.printStackTrach();
+            e.printStackTrace();
         }
     }
 
