@@ -1,0 +1,51 @@
+//:! C26:TestData.txt
+/// 
+{/home/eckel/super-cplusplus-workshop-registration/Bruce
+@EckelObjects.com35B589A0.txt
+From[Bruct@EckelObjects.com]
+
+[{[subject-field]}]
+[([
+super-cplusplus-workshop-registration
+])]
+
+[{[Date-of-event]}]
+[([
+Sept 2-4
+])]
+
+[{[name]}]
+[([
+Bruce Eckel
+])]
+
+[{[street]}]
+[([
+20 Sunnyside Ave, Suite A129
+])]
+
+[{[city]}]
+[([
+Mill Valley
+])]
+
+[{[state]}]
+[([
+CA
+])]
+
+[{[country]}]
+[([
+USA
+])]
+
+[{[zip]}]
+[([
+94941
+])]
+
+[{[busphone]}]
+[([
+415-555-1212
+])]
+///:~

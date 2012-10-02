@@ -1,0 +1,45 @@
+//:! C26:MailingLists.html
+<html>
+  <head>
+    <title>Thinking in C++ 2nd Edition Mailing Lists</title>
+  </head>
+  <body>
+    <h1 align="center">
+      <font color="#000000">The C++ Mailing List</font>
+    </h1>
+    <div align="center">
+      <center>
+        <table border="1" cellpadding="4" cellspacing="1" width="550" bgcolor="#FFFFFF">
+          <tr>
+            <td width="30" bgcolor="#FF0000">&nbsp;</td>
+            <td align="center" width="422" bgcolor="#0">
+              <form action="/cgi-bin/mlm.exe" method="GET">
+                <input type="hidden" name="subject-field" value="cplusplus-email-list"/>
+                <input type="hidden" name="command-field" value="add"/>
+                <p>
+                  <input type="text" size="40" name="email-address"/>
+                  <input type="submit" name="submit" value="Add Address to C++ Mailing List"/>
+                </p>
+              </form>
+            </td>
+            <td width="30" bgcolor="#FF0000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="30" bgcolor="#000000">&nbsp;</td>
+            <td align="center" width="422" bgcolor="#FF0000">
+              <form action="/cgi-bin/mlm.exe" method="GET">
+                <input type="hidden" name="subject-field" value="cplusplus-email-list"/>
+                <input type="hidden" name="command-field" value="remove"/>
+                <p>
+                  <input type="text" size="40" name="email-address"/>
+                  <input type="submit" name="submit" value="Remove Address From C++ Mailing List"/>
+                </p>
+              </form>
+            </td>
+            <td width="30" bgcolor="#000000">&nbsp;</td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </body>
+</html>

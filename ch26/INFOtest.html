@@ -1,0 +1,29 @@
+//:! C26:INFOtest.html
+<html>
+  <head>
+    <title>Extracting information from an HTML POST</title>
+  </head>
+  <body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+    <hr/>
+    <p>Extracting information from HTML POST</p>
+    <form action="/cig-bin/ExtractInfo.exe" method="POST">
+      <input type="hidden" name="subject-field" value="test-extract-info"/>
+      <input type="hidden" name="reminder" value="Remember your lunch!"/>
+      <input type="hidden" name="test-field" value="on"/>
+      <input type="hidden" name="mail-copy" value="Bruce@EckelObjects.com;eckel@aol.com"/>
+      <input type="hidden" name="confirmation" value="confirmation1"/>
+      <p>
+        Email address (Required):
+        <input type="text" size="45" name="email-address"/>
+      </p>
+      Comment:
+      <br/>
+      <textarea name="Comment" rows="6" cols="55"></textarea>
+      <p>
+        <input type="submit" name="submit"/>
+        <input type="reset" name="reset"/>
+      </p>
+    </form>
+    <hr/>
+  </body>
+</html>
