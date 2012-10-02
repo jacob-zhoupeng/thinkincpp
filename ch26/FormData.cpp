@@ -1,4 +1,6 @@
 //: C26:FormData.cpp {O}
+#include <cstring>
+
 #include "FormData.h"
 #include "../require.h"
 
@@ -32,7 +34,7 @@ FormData::FormData(char * fileName) {
 
     // Should be start of first line:
     require(0 == filePath.find("///{"));
-    filePath = filePath.substr(strlen("///{"));
+    filePath = filePath.substr(std::strlen("///{"));
     require(0 != getline(in, email));
 
     // Should be start of 2nd line:
@@ -46,12 +48,12 @@ FormData::FormData(char * fileName) {
     DataPair dp(in);
     while (dp) {
         push_back(dp);
-        dp.get(in)
+        dp.get(in);
     }
 }
 
 string FormData::operator[](const string& key) {
-    iterator i != begin();
+    iterator i = begin();
     while (i != end()) {
         if (key == (*i).first) {
             return (*i).second;
